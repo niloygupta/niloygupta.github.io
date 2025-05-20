@@ -1,74 +1,35 @@
-# Personal Academic Website
+# Niloy Gupta's Personal Website
 
-This is a personal academic website template for Niloy Gupta, designed to showcase academic background, research interests, and professional experience.
+This repository contains the source code for Niloy Gupta's personal website, showcasing his research, publications, and professional experience in the field of Computer Science, particularly in Machine Learning and Natural Language Processing.
 
-## Features
+## Project Structure
 
-- Responsive design for all devices
-- Sections for bio, research interests, publications, and experience
-- Social media and professional profile links
-- Clean, professional layout
+- **index.html**: The main HTML document for the website, containing the structure and content of the webpage.
+- **styles.css**: CSS styles for the website, defining layout, colors, fonts, and overall appearance.
+- **script.js**: JavaScript functionality for interactivity and dynamic content loading.
+- **images/profile.jpg**: Profile image used in the "About Me" section.
+- **assets/fonts**: Directory for custom font files used in the website.
+- **assets/icons**: Directory for icon files used throughout the website.
+- **js/publications.js**: Script for dynamically loading publication data.
 
 ## Setup Instructions
 
-1. Clone this repository to your local machine
-2. Customize the content in `index.html` to reflect your information
-3. Replace the placeholder image in the about section with your photo
-4. Update the publications in `script.js` with your own publications
-5. Modify the CSS in `styles.css` if you want to change the colors or styling
-6. Deploy to GitHub Pages by pushing to your repository at `niloygupta.github.io`
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/niloygupta/niloygupta.github.io.git
+   ```
 
-## Customization
+2. Navigate to the project directory:
+   ```
+   cd niloygupta.github.io
+   ```
 
-### Adding Publications
+3. Open `index.html` in your web browser to view the website.
 
-To add or update publications, edit the `publications` array in `script.js`:
+## Contributing
 
-```javascript
-const publications = [
-    {
-        title: "Your Publication Title",
-        authors: "Authors List",
-        venue: "Conference/Journal Name",
-        url: "URL to publication"
-    },
-    // Add more publications here
-];
-```
-
-### Updating Profile Photo
-
-Replace the placeholder image link in `index.html` with your own image:
-
-```html
-<div class="profile-image">
-    <img src="path/to/your/photo.jpg" alt="Niloy Gupta">
-</div>
-```
-
-### Modifying Color Scheme
-
-To change the color scheme, edit the CSS variables at the top of `styles.css`:
-
-```css
-:root {
-    --primary-color: #0066cc; /* Change this to your preferred primary color */
-    --secondary-color: #f5f5f5;
-    --dark-color: #333;
-    --light-color: #fff;
-    --grey-color: #eee;
-}
-```
-
-## Deployment
-
-To deploy this website to GitHub Pages:
-
-1. Create a repository named `niloygupta.github.io`
-2. Push the content of this project to that repository
-3. GitHub will automatically build and deploy your site
-4. Your website will be available at `https://niloygupta.github.io/`
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
 ## License
 
-This template is open-source and free to use for personal or academic purposes.
+This project is licensed under the MIT License. See the LICENSE file for more details.
